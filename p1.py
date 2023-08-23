@@ -69,4 +69,6 @@ def main():
             print(f"Flight ID: {flight.flight_id}, From: {flight.source}, To: {flight.destination}, Price: {flight.price}")
     else:
         print("No matching flights found.")
-``````````````````````````````````````
+
+if __name__ == "_main_":
+    main()
